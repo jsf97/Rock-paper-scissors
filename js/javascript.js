@@ -16,44 +16,38 @@ let getPlayerChoice = () => {
 let playRound = (playerChoice, computerChoice) => {
   if (playerChoice == "piedra") {
     if (computerChoice == 1) {
-      resultado = "Empate, el rival saco piedra"
-      return resultado
+      return resultado = "Empate, el rival saco piedra"
     } 
     else if (computerChoice == 2) {
-      resultado = "Perdiste, el rival saco papel"
-      return resultado
+      return resultado = "Perdiste, el rival saco papel"
     } 
     else if (computerChoice == 3) {
-      resultado = "Ganaste, el rival saco tijera"
-      return resultado
+      return resultado = "Ganaste, el rival saco tijera"
+
     } 
   }
   else if (playerChoice == "papel") {
     if (computerChoice == 1) {
-      resultado = "Ganaste, el rival saco piedra"
-      return resultado
+      return resultado = "Ganaste, el rival saco piedra"
     } 
     else if (computerChoice == 2) {
-      resultado = "Empate, el rival saco papel"
-      return resultado
+      return resultado = "Empate, el rival saco papel"
     } 
     else if (computerChoice == 3) {
-      resultado = "Perdiste, el rival saco tijera"
-      return resultado
+      return resultado = "Perdiste, el rival saco tijera"
     } 
+
+
   }
   else if (playerChoice == "tijera") {
     if (computerChoice == 1) {
-      resultado = "Perdiste, el rival saco piedra"
-      return resultado
+      return resultado = "Perdiste, el rival saco piedra"
     } 
     else if (computerChoice == 2) {
-      resultado = "Ganaste, el rival saco papel"
-      return resultado
+      return resultado = "Ganaste, el rival saco papel"
     } 
     else if (computerChoice == 3) {
-      resultado = "Empate, el rival saco tijera"
-      return resultado
+      return resultado = "Empate, el rival saco tijera"
     } 
   }
 }
