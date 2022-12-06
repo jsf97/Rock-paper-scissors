@@ -64,10 +64,10 @@ let playRound = () => {
 }
 
 let checkScore = () => {
-  if (playerScore == 5) {
+  if (playerScore === 5) {
     alert("Ganaste")
   }
-  else if (computerScore == 5) {
+  else if (computerScore === 5) {
     alert("Perdiste")
   }
 }
